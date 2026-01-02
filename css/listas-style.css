@@ -1,0 +1,31 @@
+ul li{
+    list-style-type:square;
+    
+}
+table{
+    width: 600px;
+    
+}
+table thead{
+    background: #00dd11;
+}
+table tbody{
+    background-color: rgb(80, 131, 131);
+}
+th{
+    font-weight: normal;
+}
+th,td{
+    border: solid 1px #00ff00;
+    padding: 10px;
+    text-align: left;
+}
+tr:hover{
+    background-color: burlywood;
+}
+tbody td{
+    border-bottom: 1px solid #c500cc;
+}
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
